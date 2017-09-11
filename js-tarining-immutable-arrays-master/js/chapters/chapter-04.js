@@ -1,5 +1,4 @@
 /**
-/**
  * NOTES:
  * Do not forget to insert RETURN statement, if needed!
  * Please use the following functions primarily and if needed all the other array functions
@@ -25,30 +24,4 @@
 
 
 
-function findNumberOfPassengers(pPassengers){
-    return pPassengers.length;
-}
-
-function findPersonByIndex(pPassengers, pIndex){
-    return pPassengers;
-}
-
-function findNumberOfWomen(pPassengers){
-    return pPassengers.filter(person => person.gender ==="F").length;
-}
-
-function findNumberOfMen(pPassengers){
-    return pPassengers.filter(person => person.gender ==="M").length;
-}
-
-function findPersonByTicketId(pPassengers, pId){
-    return pPassengers;
-}
-
-function findPassengersWithNoChildren(pPassengers){
-    return pPassengers;
-}
-
-function findUnderagePassengers(pPassengers){
-    return pPassengers;
-}
+//coming soon...
