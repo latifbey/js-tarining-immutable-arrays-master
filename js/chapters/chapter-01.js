@@ -46,9 +46,9 @@ function findPersonByTicketId(pPassengers, pId){
 }
 
 function findPassengersWithNoChildren(pPassengers){
-    return pPassengers;
+    return pPassengers.filter(person => person.children.length ===0).length;
 }
 
 function findUnderagePassengers(pPassengers){
-    return pPassengers;
+    return pPassengers.filter(person => person.birth.getFullYear() > 1999).length;
 }
