@@ -30,7 +30,7 @@ function findNumberOfPassengers(pPassengers){
 }
 
 function findPersonByIndex(pPassengers, pIndex){
-    return pPassengers;
+    return pPassengers[pIndex-1].firstname;
 }
 
 function findNumberOfWomen(pPassengers){
@@ -42,7 +42,7 @@ function findNumberOfMen(pPassengers){
 }
 
 function findPersonByTicketId(pPassengers, pId){
-    return pPassengers;
+    return pPassengers.find(person=>person.id==pId).lastname;
 }
 
 function findPassengersWithNoChildren(pPassengers){
